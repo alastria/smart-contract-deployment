@@ -1,0 +1,8 @@
+build
+js-poc
+node_modules
+test
+.DS_Store
+.gitattributes
+package-lock.json
+truffle-config.js
