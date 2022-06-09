@@ -1,4 +1,0 @@
-# Solidity
-# Solidity
-# Solidity
-# Solidity
