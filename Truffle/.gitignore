@@ -5,4 +5,4 @@ test
 .DS_Store
 .gitattributes
 package-lock.json
-truffle-config.js
+
