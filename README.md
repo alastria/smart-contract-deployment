@@ -18,29 +18,31 @@ This repository provides practical example to deploy Smart Contracts in both T a
 - **Chain ID:** 2020
 
 ##### Remix: Deployment (left side)
-<img src="https://ik.imagekit.io/alastria/Remix-deploy" alt="Remix1" width="200">
+<img src="https://ik.imagekit.io/alastria/Remix-deploy" alt="Remix1" width="400">
 
-![N|Remix1](https://ik.imagekit.io/alastria/Remix-deploy)
 
 ###### Mandatory options for T Network 
 These options also work for B Network, but are only mandatory for T Network.
-![N|RemixDeploy](https://ik.imagekit.io/alastria/options_for_t_network.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656492606348)
+<img src="https://ik.imagekit.io/alastria/Remix-deploy](https://ik.imagekit.io/alastria/options_for_t_network.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656492606348" alt="RemixDeploy" width="400">
+
 
 ###### Metamask: Network selection
 You have to select your Alastria Network form Metamask.
-![N|Metamask1](https://ik.imagekit.io/alastria/selection_of_alastria_network.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656492649058)
+<img src="[[https://ik.imagekit.io/alastria/Remix-deploy](https://ik.imagekit.io/alastria/options_for_t_network.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656492606348)](https://ik.imagekit.io/alastria/selection_of_alastria_network.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656492649058)" alt="Metamask1" width="400">
 
 ###### Metamask: Confirm transaction
 You have to confirm the transaction of the Smart Contract deployment.
-![N|Metamask2](https://ik.imagekit.io/alastria/metamask_confirmation.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656492665353)
+<img src="[[https://ik.imagekit.io/alastria/Remix-deploy](https://ik.imagekit.io/alastria/options_for_t_network.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656492606348)](https://ik.imagekit.io/alastria/metamask_confirmation.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656492665353)" alt="Metamask2" width="400">
 
 ###### Functions overview in Remix (left side)
 You will see an overview of the public/external functions of your already deployed Smart Contract.
-![N|Remix2](https://ik.imagekit.io/alastria/functions_overview.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656492696364)
+
+<img src="https://ik.imagekit.io/alastria/functions_overview.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656492696364" alt="Remix2" width="400">
 
 ###### Functions execution in Remix (left side)
 You can directly execute your Smart Contract functions from the Remix web IDE for test purposes.
-![N|Remix3](https://ik.imagekit.io/alastria/functions_execution.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656492681737)
+
+<img src="[https://ik.imagekit.io/alastria/Remix-deploy](https://ik.imagekit.io/alastria/options_for_t_network.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656492606348)" alt="Remix3" width="400">
 
 
 ## Truffle
