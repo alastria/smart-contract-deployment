@@ -1,4 +1,4 @@
-## Truffle Guide 
+## Hardhat Guide 
 
 #### Installation
 ```sh
