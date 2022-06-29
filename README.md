@@ -18,7 +18,7 @@ This repository provides practical example to deploy Smart Contracts in both T a
 - **Chain ID:** 2020
 
 ##### Remix: Deployment (left side)
-<img src="https://ik.imagekit.io/alastria/Remix-deploy" alt="Remix1" width="50">
+<img src="https://ik.imagekit.io/alastria/Remix-deploy" alt="Remix1" width="200">
 
 ![N|Remix1](https://ik.imagekit.io/alastria/Remix-deploy)
 
