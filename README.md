@@ -6,7 +6,7 @@ This repository provides practical example to deploy Smart Contracts in both T a
 
 ##### Metamask: Add T Network information
 
-- **Network:** B Network
+- **Network:** T Network
 - **New RPC URL:** http://YOUR_NODE_IP:22000
 - **Chain ID:** 83584648538
 
