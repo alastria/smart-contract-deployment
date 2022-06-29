@@ -63,7 +63,6 @@ truffle migrate --network alastriab
 ```
 
 ## Hardhat
-## Truffle Guide 
 
 #### Installation
 ```sh
