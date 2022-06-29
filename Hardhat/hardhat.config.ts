@@ -17,8 +17,8 @@ const chainIds = {
 
 const { //This variables must be in the .env file, in order to work (like .env.example)
   PRIVATE_KEY,
-  T_ALASTRIA_IP,
-  B_ALASTRIA_IP
+  T_NODE_IP,
+  B_NODE_IP
 } = process.env;
 
 
@@ -38,13 +38,13 @@ const config: HardhatUserConfig = {
   },
   networks: {
     t_alastria: {
-      url: `http:///${T_ALASTRIA_IP}:22000`,
+      url: `http:///${T_NODE_IP}:22000`,
       chainId: chainIds.t_alastria,
       gasPrice: 0,
       accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : []
     },
     b_alastria: {
-      url: `http:///${B_ALASTRIA_IP}:8545`,
+      url: `http:///${B_NODE_IP}:8545`,
       chainId: chainIds.b_alastria,
       gasPrice: 0,
       accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : []
