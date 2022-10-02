@@ -10,13 +10,13 @@ npm install --save-dev hardhat
 ```sh
 npx hardhat clean
 npx hardhat compile
-npx hardhat run ./scripts/vault-verify.ts --network t_alastria
+npx hardhat run ./scripts/deploy.ts --network t_alastria
 ```
 
 #### Deployment in B Network
 ```sh
 npx hardhat clean
 npx hardhat compile
-npx hardhat run ./scripts/vault-verify.ts --network b_alastria
+npx hardhat run ./scripts/deploy.ts --network b_alastria
 ```
 
