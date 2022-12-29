@@ -8,7 +8,7 @@ contract Notarization  {
     address public owner;
 
     modifier onlyOwner {
-            require(owner == msg.sender, "Only the owner can register documents."); //Only the owner can register evidences.
+            require(owner == msg.sender, "Only the owner can register, or change the current owner."); //Only the owner can register evidences.
             _;
         }
 
