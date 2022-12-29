@@ -7,7 +7,7 @@ contract Notarization  {
     mapping(string => uint256) private hashRegistry; //Mapping to link hash based evidences (String) with time of registry (uint256).
     address public owner;
 
-    modifier onlyOwner(address user) {
+    modifier onlyOwner {
             require(owner == msg.sender, "Only the owner can register documents."); //Only the owner can register evidences.
             _;
         }
@@ -16,7 +16,7 @@ contract Notarization  {
         owner = msg.sender; //Set the owner of the contract. The only address that can register evidences.
     }
 
-    function register(string memory hash) public onlyOwner(msg.sender) {
+    function register(string memory hash) public onlyOwner {
         hashRegistry[hash] = block.timestamp; //Evidences (hashes) registering in map, linked to current time.
     }
 
@@ -24,7 +24,7 @@ contract Notarization  {
         return (hashRegistry[hash]); //If the hash is not registered, the returned value will be 0 (uint256 default value).
     }
 
-    function setOwner(address newOwner) external onlyOwner(msg.sender) {
+    function setOwner(address newOwner) external onlyOwner {
         owner = newOwner;
     }
 
