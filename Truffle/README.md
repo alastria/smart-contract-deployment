@@ -4,7 +4,7 @@
 ```sh
 npm install -g truffle
 cd Truffle
-npm i
+npm instal
 ```
 
 #### Deployment in T Network
