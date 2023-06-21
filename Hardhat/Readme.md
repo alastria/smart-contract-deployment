@@ -2,8 +2,7 @@
 
 #### Installation
 ```sh
-npm init
-npm install --save-dev hardhat
+npm install
 ```
 
 #### Deployment in T Network
