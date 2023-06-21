@@ -2,6 +2,7 @@
 
 #### Installation
 ```sh
+cd Hardhat
 npm install
 ```
 
