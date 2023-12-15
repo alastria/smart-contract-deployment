@@ -4,6 +4,9 @@ This repository provides practical example to deploy Smart Contracts in both T a
 
 ## Remix
 
+First of all you need to install: [Metamask as browser extension]([https://www.google.com](https://metamask.io/download/))
+
+
 #### Metamask: Add T Network information
 
 - **Network:** T Network
